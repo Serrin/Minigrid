@@ -5,13 +5,13 @@ A very simple flex based grid system with only one breakpoint (768px).
 
 IE11 and mobile compatible. Can be combined with the [u87.css](https://github.com/Serrin/u87.css).
 
-Latest version: 1.0
+Latest version: 1.0.1
 
 Date: 2020-05-12T19:16:51.793Z
 
 There are 2 versions:
-- minigrid.css (1966 byte) and minigrid.min.css (1275 byte)
-- minigrid-lite.css (639 byte) and minigrid-lite.min.css (533 byte)
+- minigrid.css (1968 byte) and minigrid.min.css (1277 byte)
+- minigrid-lite.css (641 byte) and minigrid-lite.min.css (535 byte)
 
 The Lite version doesn't contain the `.mg-col-XX` classes. The size of the cells can be set with the `flex: value;` CSS property.
 
@@ -58,7 +58,7 @@ There are more samples in the __minigrid.html__ and __minigrid-lite.html__ files
 ### With `.mg-col-XX`
 
 ````html
-<div class="container">
+<div class="mg-container">
   <div class="mg-row">
     <div class="mg-col mg-col-25">left 25%</div>
     <div class="mg-col mg-col-75 mg-nopadding">right 75% without padding</div>
@@ -70,7 +70,7 @@ There are more samples in the __minigrid.html__ and __minigrid-lite.html__ files
 ### Without `.mg-col-XX`
 
 ````html
-<div class="container">
+<div class="mg-container">
   <div class="mg-row">
     <div class="mg-col" style="flex: 1;">left 25%</div>
     <div class="mg-col mg-nopadding" style="flex: 3;">right 75% without padding</div>
