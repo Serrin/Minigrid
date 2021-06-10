@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Minigrid v1.0.1 * https://github.com/Serrin/Minigrid/ * license: MIT */
+/* Minigrid v1.0.2 * https://github.com/Serrin/Minigrid/ * license: MIT */
 .mg-nopadding { padding: 0 !important; }
 .mg-container {
   display: block;
@@ -36,5 +36,17 @@
   .mg-col-83 { flex: 0 83.3334%; max-width: 83.3334%; } /*      10/12 */
   .mg-col-91 { flex: 0 91.6667%; max-width: 91.6667%; } /*      11/12 */
   .mg-col-100 { flex: 1 1 100%; max-width: 100%; }      /* 1/1  12/12 */
+  .mg-col-flex-1 { flex: 1; }
+  .mg-col-flex-2 { flex: 2; }
+  .mg-col-flex-3 { flex: 3; }
+  .mg-col-flex-4 { flex: 4; }
+  .mg-col-flex-5 { flex: 5; }
+  .mg-col-flex-6 { flex: 6; }
+  .mg-col-flex-7 { flex: 7; }
+  .mg-col-flex-8 { flex: 8; }
+  .mg-col-flex-9 { flex: 9; }
+  .mg-col-flex-10 { flex: 10; }
+  .mg-col-flex-11 { flex: 11; }
+  .mg-col-flex-12 { flex: 12; }
 }
 [class^="mg-"] { box-sizing: border-box; }

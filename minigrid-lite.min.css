@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Minigrid v1.0.1 Lite * https://github.com/Serrin/Minigrid/ * license: MIT */
+/* Minigrid v1.0.2 Lite * https://github.com/Serrin/Minigrid/ * license: MIT */
 .mg-nopadding{padding:0 !important;}
 .mg-container{display:block;width:100%;max-width:1140px;margin:0 auto;padding:0 0.5rem;}
 .mg-row{display:block;width:unset;margin:0 -0.5rem;padding:0;}
